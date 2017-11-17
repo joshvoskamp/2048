@@ -1,0 +1,22 @@
+#Directory-based project format:
+.idea/
+.gradle/
+build.gradle
+settings.gradle
+
+
+#Gradle based files that are to be ignored
+gradle/
+gradlew*
+build/
+
+#File-based project format:
+*.ipr
+*.iws
+
+#IntelliJ
+/out/
+
+#OS Files
+*.DS_Store
+Thumbs.db
